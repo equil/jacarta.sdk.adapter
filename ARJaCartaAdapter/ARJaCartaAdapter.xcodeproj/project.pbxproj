@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B1B1336194E1D4A00D199F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1B1335194E1D4A00D199F3 /* Foundation.framework */; };
+		6B1B133B194E1D4A00D199F3 /* ARJaCartaAdapter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B1B133A194E1D4A00D199F3 /* ARJaCartaAdapter.h */; };
+		6B1B1344194E1D4A00D199F3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1B1343194E1D4A00D199F3 /* XCTest.framework */; };
+		6B1B1345194E1D4A00D199F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1B1335194E1D4A00D199F3 /* Foundation.framework */; };
+		6B1B1347194E1D4A00D199F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1B1346194E1D4A00D199F3 /* UIKit.framework */; };
+		6B1B134A194E1D4A00D199F3 /* libARJaCartaAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1B1332194E1D4A00D199F3 /* libARJaCartaAdapter.a */; };
+		6B1B1350194E1D4A00D199F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B1B134E194E1D4A00D199F3 /* InfoPlist.strings */; };
+		6B1B1352194E1D4A00D199F3 /* ARJaCartaAdapterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1B1351194E1D4A00D199F3 /* ARJaCartaAdapterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B1B1348194E1D4A00D199F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B1B132A194E1D4A00D199F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B1B1331194E1D4A00D199F3;
+			remoteInfo = ARJaCartaAdapter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6B1B1330194E1D4A00D199F3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				6B1B133B194E1D4A00D199F3 /* ARJaCartaAdapter.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6B1B1332194E1D4A00D199F3 /* libARJaCartaAdapter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libARJaCartaAdapter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1B1335194E1D4A00D199F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B1B1339194E1D4A00D199F3 /* ARJaCartaAdapter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARJaCartaAdapter-Prefix.pch"; sourceTree = "<group>"; };
+		6B1B133A194E1D4A00D199F3 /* ARJaCartaAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARJaCartaAdapter.h; sourceTree = "<group>"; };
+		6B1B1342194E1D4A00D199F3 /* ARJaCartaAdapterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARJaCartaAdapterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1B1343194E1D4A00D199F3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6B1B1346194E1D4A00D199F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6B1B134D194E1D4A00D199F3 /* ARJaCartaAdapterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARJaCartaAdapterTests-Info.plist"; sourceTree = "<group>"; };
+		6B1B134F194E1D4A00D199F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B1B1351194E1D4A00D199F3 /* ARJaCartaAdapterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARJaCartaAdapterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B1B132F194E1D4A00D199F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1B1336194E1D4A00D199F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1B133F194E1D4A00D199F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1B1344194E1D4A00D199F3 /* XCTest.framework in Frameworks */,
+				6B1B134A194E1D4A00D199F3 /* libARJaCartaAdapter.a in Frameworks */,
+				6B1B1347194E1D4A00D199F3 /* UIKit.framework in Frameworks */,
+				6B1B1345194E1D4A00D199F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B1B1329194E1D4A00D199F3 = {
+			isa = PBXGroup;
+			children = (
+				6B1B1337194E1D4A00D199F3 /* ARJaCartaAdapter */,
+				6B1B134B194E1D4A00D199F3 /* ARJaCartaAdapterTests */,
+				6B1B1334194E1D4A00D199F3 /* Frameworks */,
+				6B1B1333194E1D4A00D199F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B1B1333194E1D4A00D199F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B1B1332194E1D4A00D199F3 /* libARJaCartaAdapter.a */,
+				6B1B1342194E1D4A00D199F3 /* ARJaCartaAdapterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B1B1334194E1D4A00D199F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B1B1335194E1D4A00D199F3 /* Foundation.framework */,
+				6B1B1343194E1D4A00D199F3 /* XCTest.framework */,
+				6B1B1346194E1D4A00D199F3 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B1B1337194E1D4A00D199F3 /* ARJaCartaAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				6B1B133A194E1D4A00D199F3 /* ARJaCartaAdapter.h */,
+				6B1B1338194E1D4A00D199F3 /* Supporting Files */,
+			);
+			path = ARJaCartaAdapter;
+			sourceTree = "<group>";
+		};
+		6B1B1338194E1D4A00D199F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B1B1339194E1D4A00D199F3 /* ARJaCartaAdapter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B1B134B194E1D4A00D199F3 /* ARJaCartaAdapterTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B1B1351194E1D4A00D199F3 /* ARJaCartaAdapterTests.m */,
+				6B1B134C194E1D4A00D199F3 /* Supporting Files */,
+			);
+			path = ARJaCartaAdapterTests;
+			sourceTree = "<group>";
+		};
+		6B1B134C194E1D4A00D199F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B1B134D194E1D4A00D199F3 /* ARJaCartaAdapterTests-Info.plist */,
+				6B1B134E194E1D4A00D199F3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B1B1331194E1D4A00D199F3 /* ARJaCartaAdapter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B1B1355194E1D4A00D199F3 /* Build configuration list for PBXNativeTarget "ARJaCartaAdapter" */;
+			buildPhases = (
+				6B1B132E194E1D4A00D199F3 /* Sources */,
+				6B1B132F194E1D4A00D199F3 /* Frameworks */,
+				6B1B1330194E1D4A00D199F3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARJaCartaAdapter;
+			productName = ARJaCartaAdapter;
+			productReference = 6B1B1332194E1D4A00D199F3 /* libARJaCartaAdapter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6B1B1341194E1D4A00D199F3 /* ARJaCartaAdapterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B1B1358194E1D4A00D199F3 /* Build configuration list for PBXNativeTarget "ARJaCartaAdapterTests" */;
+			buildPhases = (
+				6B1B133E194E1D4A00D199F3 /* Sources */,
+				6B1B133F194E1D4A00D199F3 /* Frameworks */,
+				6B1B1340194E1D4A00D199F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B1B1349194E1D4A00D199F3 /* PBXTargetDependency */,
+			);
+			name = ARJaCartaAdapterTests;
+			productName = ARJaCartaAdapterTests;
+			productReference = 6B1B1342194E1D4A00D199F3 /* ARJaCartaAdapterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B1B132A194E1D4A00D199F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 6B1B132D194E1D4A00D199F3 /* Build configuration list for PBXProject "ARJaCartaAdapter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B1B1329194E1D4A00D199F3;
+			productRefGroup = 6B1B1333194E1D4A00D199F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B1B1331194E1D4A00D199F3 /* ARJaCartaAdapter */,
+				6B1B1341194E1D4A00D199F3 /* ARJaCartaAdapterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B1B1340194E1D4A00D199F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1B1350194E1D4A00D199F3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B1B132E194E1D4A00D199F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1B133E194E1D4A00D199F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1B1352194E1D4A00D199F3 /* ARJaCartaAdapterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B1B1349194E1D4A00D199F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B1B1331194E1D4A00D199F3 /* ARJaCartaAdapter */;
+			targetProxy = 6B1B1348194E1D4A00D199F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B1B134E194E1D4A00D199F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B1B134F194E1D4A00D199F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B1B1353194E1D4A00D199F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B1B1354194E1D4A00D199F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B1B1356194E1D4A00D199F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ARJaCartaAdapter.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARJaCartaAdapter/ARJaCartaAdapter-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6B1B1357194E1D4A00D199F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ARJaCartaAdapter.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARJaCartaAdapter/ARJaCartaAdapter-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6B1B1359194E1D4A00D199F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARJaCartaAdapter/ARJaCartaAdapter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ARJaCartaAdapterTests/ARJaCartaAdapterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6B1B135A194E1D4A00D199F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARJaCartaAdapter/ARJaCartaAdapter-Prefix.pch";
+				INFOPLIST_FILE = "ARJaCartaAdapterTests/ARJaCartaAdapterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B1B132D194E1D4A00D199F3 /* Build configuration list for PBXProject "ARJaCartaAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B1B1353194E1D4A00D199F3 /* Debug */,
+				6B1B1354194E1D4A00D199F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B1B1355194E1D4A00D199F3 /* Build configuration list for PBXNativeTarget "ARJaCartaAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B1B1356194E1D4A00D199F3 /* Debug */,
+				6B1B1357194E1D4A00D199F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6B1B1358194E1D4A00D199F3 /* Build configuration list for PBXNativeTarget "ARJaCartaAdapterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B1B1359194E1D4A00D199F3 /* Debug */,
+				6B1B135A194E1D4A00D199F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B1B132A194E1D4A00D199F3 /* Project object */;
+}
